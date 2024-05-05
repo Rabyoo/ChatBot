@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>ChatBot</title>
+    <!-- Script JS -->
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <button class="chatbot-toggler">
+        <i class="fa-regular fa-message"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="chatbot">
+        <header>
+            <h2>ChatBot</h2>
+            <i class="close-mark fa-solid fa-xmark"></i>
+        </header>
+
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <i class="fa-solid fa-comments-dollar"></i>
+                <p>Hi there <i class="fa-solid fa-handshake" 
+                    style="color: #FFD43B; background: none;"></i> 
+                    <br> How can I help you today?</p>
+            </li>
+
+        <div class="chat-input">
+            <textarea placeholder="Enter a Message..." required></textarea>
+            <i class="fa-regular fa-paper-plane"></i>
+        </div>
+    </div>
+</body>
+</html>
